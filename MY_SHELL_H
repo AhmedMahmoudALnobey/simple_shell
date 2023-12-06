@@ -18,7 +18,7 @@
 #define MY_BUF_FLUSH -1
 
 /* for command chaining */
-#define MY_CMD_NORM 0
+#define MY_CMD_NORM 
 #define MY_CMD_OR 1
 #define MY_CMD_AND 2
 #define MY_CMD_CHAIN 3
