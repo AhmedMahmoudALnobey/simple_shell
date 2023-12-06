@@ -11,5 +11,8 @@ void execute_command(const char *command){
         execlp(command, command, (char *)NULL);
         perror("execlp");
         exit(EXIT_FAILURE);
-    } else
+    } else {
+        wait(NULL);
+    }
+    
 }
